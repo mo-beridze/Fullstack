@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "start": "yarn && lerna run --parallel start",
+    "build": "react-scripts build",
     "lint:fix": "npx eslint packages/**/*.ts packages/**/*.tsx --fix"
   },
   "devDependencies": {
