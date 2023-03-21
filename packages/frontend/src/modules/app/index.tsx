@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-constructed-context-values */
 /* eslint-disable import/no-cycle */
 import React, { createContext, useState } from 'react';
 import { QueryClient, QueryClientProvider } from 'react-query';

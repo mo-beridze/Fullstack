@@ -1,5 +1,4 @@
 import { Request } from 'express';
-import { Todo } from '../types/todos.type';
 import TodoService from '../services/todo.service';
 
 declare module 'express' {
@@ -11,7 +10,7 @@ declare module 'express' {
 export class TodoController {
   constructor(private todoService: TodoService) {}
 
-  async getAllTodo(_: Request): Promise<Todo[] | null> {
+  async getAllTodo(_: Request) {
     const { _id: userId } = _.user;
     const { status, search, page, size } = _.query as {
       status: string;
