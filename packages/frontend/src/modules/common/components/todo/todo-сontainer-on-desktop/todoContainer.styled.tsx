@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { makeStyles } from '@mui/material/styles';
+import { makeStyles } from '@mui/styles';
 
 export const useStyles = makeStyles(() => ({
   container: {
