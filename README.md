@@ -14,7 +14,7 @@ Write a fullstack todo app.
 # Short review
 
 <div style="display: flex;">
-  <img src="https://github.com/mo-beridze/CarShow/blob/main/public/CarHub.gif" width="600">
+  <img src="https://github.com/mo-beridze/Fullstack/blob/main/packages/frontend/src/assets/image/preview-app.gif" width="600">
 </div>
 
 # Setup Frontend
